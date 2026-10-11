@@ -1,0 +1,336 @@
+:root {
+  --color-fondo: #0f172a;
+  --color-superficie: #172033;
+  --color-superficie-clara: #1f2a44;
+  --color-principal: #7c5cff;
+  --color-principal-claro: #9d8bff;
+  --color-acento: #22d3ee;
+  --color-texto: #e5e7eb;
+  --color-texto-suave: #b8c0d4;
+  --color-borde: #334155;
+  --color-blanco: #ffffff;
+  --color-oferta: #6ee7b7;
+  --radio: 14px;
+  --sombra: 0 14px 30px rgba(0, 0, 0, 0.22);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+.barra-principal {
+  border-bottom: 1px solid var(--color-borde);
+  background-color: rgba(15, 23, 42, 0.98);
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.marca span {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.marca small {
+  margin-top: 3px;
+  color: var(--color-texto-suave);
+  font-size: 0.76rem;
+}
+
+.navbar .nav-link {
+  border-radius: 8px;
+  color: var(--color-texto-suave);
+}
+
+.boton-nav {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+  background-color: var(--color-superficie-clara);
+  color: var(--color-blanco);
+}
+
+.contador-carrito,
+.filtro-activo {
+  background-color: var(--color-principal);
+  color: var(--color-blanco);
+}
+
+.hero {
+  border-bottom: 1px solid var(--color-borde);
+  background: linear-gradient(180deg, #111a2d 0%, var(--color-fondo) 100%);
+}
+
+.hero-imagen,
+.contacto-bloque,
+.resumen-compra {
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  background-color: var(--color-superficie);
+  box-shadow: var(--sombra);
+}
+
+.etiqueta {
+  color: var(--color-acento);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.texto-suave {
+  color: var(--color-texto-suave);
+}
+
+.btn-pixel {
+  border: 1px solid var(--color-principal-claro);
+  background-color: var(--color-principal);
+  color: var(--color-blanco);
+  font-weight: 700;
+}
+
+.btn-pixel:hover,
+.btn-pixel:focus-visible {
+  border-color: var(--color-acento);
+  background-color: #6948f0;
+  color: var(--color-blanco);
+}
+
+.btn-en-carrito {
+  border: 1px solid var(--color-oferta);
+  background-color: rgba(110, 231, 183, 0.12);
+  color: var(--color-oferta);
+  font-weight: 700;
+}
+
+.btn-en-carrito:hover,
+.btn-en-carrito:focus-visible {
+  border-color: var(--color-oferta);
+  background-color: rgba(110, 231, 183, 0.22);
+  color: var(--color-blanco);
+}
+
+.campo-busqueda {
+  border-color: var(--color-borde);
+  background-color: var(--color-superficie);
+  color: var(--color-texto);
+}
+
+.campo-busqueda::placeholder {
+  color: #8f9ab3;
+}
+
+.campo-busqueda:focus {
+  border-color: var(--color-principal-claro);
+  background-color: var(--color-superficie);
+  color: var(--color-blanco);
+  box-shadow: 0 0 0 0.25rem rgba(124, 92, 255, 0.2);
+}
+
+.producto-card {
+  overflow: hidden;
+  border: 1px solid var(--color-borde);
+  border-top: 3px solid var(--color-principal-claro);
+  border-radius: 12px;
+  background-color: #111a2d;
+  color: var(--color-texto);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.col-producto:nth-child(even) .producto-card {
+  border-top-color: var(--color-acento);
+}
+
+.producto-card:hover {
+  border-color: var(--color-principal-claro);
+  box-shadow: var(--sombra);
+  transform: translateY(-4px);
+}
+
+.producto-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.producto-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoria {
+  color: var(--color-acento);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.precio-normal {
+  color: var(--color-texto-suave);
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}
+
+.precio-oferta {
+  color: var(--color-oferta);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.seccion-carrito {
+  border-top: 1px solid var(--color-borde);
+  border-bottom: 1px solid var(--color-borde);
+  background-color: #0b1222;
+}
+
+.alerta-pixel,
+.lista-carrito .list-group-item {
+  border-color: var(--color-borde);
+  background-color: var(--color-superficie);
+  color: var(--color-texto);
+}
+
+.lista-carrito .list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.cantidad-producto {
+  min-width: 44px;
+  justify-content: center;
+  color: var(--color-acento);
+  font-weight: 700;
+}
+
+.acciones-carrito {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-pixel:disabled {
+  border-color: var(--color-borde);
+  background-color: var(--color-superficie-clara);
+  color: var(--color-texto-suave);
+  opacity: 0.7;
+}
+
+.resumen-compra {
+  position: sticky;
+  top: 24px;
+}
+
+.enlace-contacto {
+  color: var(--color-blanco);
+  font-weight: 700;
+}
+
+.pie-pagina {
+  border-top: 1px solid var(--color-borde);
+  background-color: #0a1020;
+  color: var(--color-texto-suave);
+}
+
+.pie-pagina a:hover,
+.pie-pagina a:focus-visible {
+  color: var(--color-acento);
+}
+
+#productos,
+#carrito,
+#contacto,
+#administrar {
+  scroll-margin-top: 80px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    padding-top: 12px;
+  }
+
+  .navbar .nav-link {
+    padding-left: 12px;
+  }
+
+  .resumen-compra {
+    position: static;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .marca small {
+    display: none;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  form[role='search'] {
+    flex-direction: column;
+  }
+
+  .lista-carrito .list-group-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .acciones-carrito {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
+/* Formularios del catálogo y de contacto, adaptables al ancho disponible. */
+.gestor-catalogo {
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  background-color: var(--color-superficie);
+}
+
+.filtro-categoria {
+  max-width: 220px;
+}
+
+.form-select.campo-busqueda {
+  color-scheme: dark;
+}
+
+.form-select.campo-busqueda option {
+  color: var(--color-texto);
+  background-color: var(--color-superficie);
+}
+
+textarea.campo-busqueda {
+  resize: vertical;
+}
