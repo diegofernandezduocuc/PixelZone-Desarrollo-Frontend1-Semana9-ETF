@@ -1,6 +1,6 @@
 # Pixel Zone — Desarrollo Frontend I (PFY2201), ETF Semana 9
 
-Sitio web de una tienda de videojuegos desarrollado con HTML5, CSS3, JavaScript, Bootstrap 5 y componentes funcionales de React. El catálogo se carga desde un archivo JSON local y se presenta mediante tarjetas responsivas.
+Sitio web de una tienda de videojuegos desarrollado con HTML5, CSS3, JavaScript, React 19, Vite 7 y Bootstrap 5. Los componentes funcionales utilizan estado y props para coordinar el catálogo, el carrito y los formularios. El catálogo se carga desde un archivo JSON local mediante fetch y useEffect y se presenta mediante tarjetas responsivas.
 
 ## Requisitos y ejecución
 
@@ -34,4 +34,5 @@ Los cambios del catálogo y del carrito se mantienen en memoria durante la sesi�
 
 ## Repositorio
 
-La publicación en GitHub del código fuente y del historial de commits de la ETF está pendiente. La aplicación es compatible con un despliegue estático, incluido GitHub Pages.
+- Código fuente e historial: [Repositorio en GitHub](https://github.com/diegofernandezduocuc/PixelZone-Desarrollo-Frontend1-Semana9-ETF).
+- Sitio publicado: [Pixel Zone en GitHub Pages](https://diegofernandezduocuc.github.io/PixelZone-Desarrollo-Frontend1-Semana9-ETF/).
