@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Nebula Raiders",
+    "categoria": "Acción",
+    "descripcion": "Explora sistemas remotos y enfrenta flotas rivales en combates espaciales.",
+    "precioNormal": 29990,
+    "precioOferta": 24990,
+    "imagen": "assets/img/nebula-raiders.svg",
+    "alt": "Portada ilustrada del videojuego Nebula Raiders"
+  },
+  {
+    "id": 2,
+    "nombre": "Chrono Drift",
+    "categoria": "Carreras",
+    "descripcion": "Compite en circuitos urbanos y domina derrapes en escenarios futuristas.",
+    "precioNormal": 24990,
+    "precioOferta": 19990,
+    "imagen": "assets/img/chrono-drift.svg",
+    "alt": "Portada ilustrada del videojuego Chrono Drift"
+  },
+  {
+    "id": 3,
+    "nombre": "Kingdom Tactics",
+    "categoria": "Estrategia",
+    "descripcion": "Administra recursos, fortalece tu reino y planifica cada batalla.",
+    "precioNormal": 27990,
+    "precioOferta": 21990,
+    "imagen": "assets/img/kingdom-tactics.svg",
+    "alt": "Portada ilustrada del videojuego Kingdom Tactics"
+  },
+  {
+    "id": 4,
+    "nombre": "Echoes of the Forest",
+    "categoria": "Aventura",
+    "descripcion": "Descubre ruinas antiguas y resuelve misterios ocultos en un bosque mágico.",
+    "precioNormal": 28990,
+    "precioOferta": 22990,
+    "imagen": "assets/img/echoes-forest.svg",
+    "alt": "Portada ilustrada del videojuego Echoes of the Forest"
+  },
+  {
+    "id": 5,
+    "nombre": "Iron Arena",
+    "categoria": "Acción",
+    "descripcion": "Entra a la arena, combina habilidades y supera desafíos de dificultad creciente.",
+    "precioNormal": 22990,
+    "precioOferta": 17990,
+    "imagen": "assets/img/iron-arena.svg",
+    "alt": "Portada ilustrada del videojuego Iron Arena"
+  },
+  {
+    "id": 6,
+    "nombre": "Starlight Valley",
+    "categoria": "Simulación",
+    "descripcion": "Construye tu refugio, cultiva recursos y conoce a los habitantes del valle.",
+    "precioNormal": 21990,
+    "precioOferta": 16990,
+    "imagen": "assets/img/starlight-valley.svg",
+    "alt": "Portada ilustrada del videojuego Starlight Valley"
+  }
+]
